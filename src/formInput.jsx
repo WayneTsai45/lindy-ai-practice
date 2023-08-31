@@ -22,8 +22,8 @@ const FormInput = ({formFields, setFormFields}) => {
             type='text'
             required
             onChange={handleChange}
-            name={label.toLowerCase()}
-            value={formFields[label.toLowerCase()]}
+            name={label}
+            value={formFields[label]}
           />
         </div>
       ))}
