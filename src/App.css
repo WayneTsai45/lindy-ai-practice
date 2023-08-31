@@ -1,0 +1,19 @@
+.App {
+  text-align: center;
+}
+
+.messageBox {
+  flex-direction: column;
+  width: 500px;
+  height: 500px;
+  margin-top: 50px;
+}
+
+.emailBox{
+  margin-left: 10px;
+}
+
+.nameBox{
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
